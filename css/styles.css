@@ -1,0 +1,103 @@
+:root {
+    --primary-text-color:#212121;
+    --text-color:#757575;
+    --accent-text-color:#2196f3;
+    --backround-color: #ffffff;
+    --foter-color: rgba(255, 255, 255, 0.6);
+    --button-backround: #F5F4FA;
+}
+
+body {
+  background-color: var(--backround-color);
+  color: var(--primary-text-color);
+}
+
+/* Header */
+.web-studio-logo {
+  color: var(--accent-text-color);
+}
+.studio-logo {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+      color: var(--accent-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.email-link {
+    color: var(--text-color);
+}
+
+.email-link:hover,
+.email-link:focus {
+  color: var(--accent-text-color);
+}
+.phone-link {
+    color: var(--text-color);
+}
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Hero */
+.hero-title {
+    /* color: var(--backround-color); */
+}
+.hero .link {
+    /* color: var(--backround-color); */
+}
+
+.features-title, .work-title, .team-title, .team-member {
+    color: var(--primary-text-color);
+}
+/* Feature */
+.features-text {
+    color: var(--text-color);
+}
+/* Team */
+.team .position {
+    color: var(--text-color);
+}
+/* Footer */
+.studio-logo-footer {
+    /* color: var(--backround-color); */
+}
+
+.footer .address {
+    /* color: var(--backround-color); */
+}
+.footer .email,
+.footer .tel {
+    /* color: var(--foter-color); */
+}
+/* Button */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--backround-color);
+}
+.button.primary {
+    color: var(--backround-color);
+    background-color: var(--accent-text-color);
+}
+.button.nav {
+color: var(--primary-text-color) ;
+background-color: var(--button-backround);
+}
+.button.nav:hover,
+.button.nav:focus {
+    color: var(--backround-color);
+    background-color: var(--accent-text-color);
+}
