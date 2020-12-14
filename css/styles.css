@@ -17,7 +17,7 @@ body {
 .logo {
     font-family: Raleway, cursive;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .web-studio-logo {
@@ -63,7 +63,7 @@ ul {
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .phone-link:hover,
